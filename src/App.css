@@ -1,4 +1,6 @@
 .App {
+
+  background-color: #282c34;
   text-align: center;
 }
 
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +24,48 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.table{
+  background-color: black;
+  height: 400px;
+  width: 80%;
+  border-radius: 10px;
+  flex-direction: row;
+}
+
+.startButton{
+  background-color: maroon;
+  color: white;
+  align-self: center;
+  padding: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+
+  }
+  .startButton:hover{
+    background-color: black;
+    color:white;
+  }
+ 
+
+.titles{
+  font-size: small;
+  height: 25px;
+  vertical-align: baseline;
+  background-color: gray;
+  color: maroon;
+
+}
+.data{
+  font-size:small;
+ vertical-align: baseline;
+
+}
+.detector{
+  font-size: 70px;
 }
 
 .App-link {
